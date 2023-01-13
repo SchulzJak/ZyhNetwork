@@ -74,3 +74,5 @@ Sending FormData:
     return NetWork().filePut($PATH, param);
   }
 ```
+…you can make your own interface.
+
