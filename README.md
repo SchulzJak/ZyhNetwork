@@ -67,6 +67,14 @@ static Future<ZyhHttpResponse> jsonPut(Map<String, dynamic> param) async {
 }
 ```
 
+Performing a `DELETE` request:
+
+```dart
+static Future<ZyhHttpResponse> delete(Map<String, dynamic> param) async {
+  return NetWork().delete($PATH, param);
+}
+```
+
 Get response with bytes:
 
 ```dart
