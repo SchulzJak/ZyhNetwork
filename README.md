@@ -59,20 +59,6 @@ static Future<ZyhHttpResponse> jsonPut(Map<String, dynamic> param) async {
 }
 ```
 
-Performing a `GET` request:
-
-```dart
-
-  static Future<ZyhHttpResponse> getWithNoParam() async {
-    return NetWork().get($PATH, {});
-  }
-
-
-  static Future<ZyhHttpResponse> getWithParam(Map<String, dynamic> param) async {
-    return NetWork().get($PATH,param);
-  }
-```
-
 Get response with bytes:
 
 ```dart
