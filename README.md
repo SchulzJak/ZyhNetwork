@@ -1,6 +1,6 @@
 # Zyh_Network
 
-一个基于Dio封装的网络管理类
+一个基于Dio封装的Flutter网络管理类
 
 ## Features
 - ♻️可复用   
