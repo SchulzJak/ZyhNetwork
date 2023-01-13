@@ -20,7 +20,7 @@ dependencies:
 
 ### Super simple to use
 
-Download the source code and put in project folder `/lib`
+Download the source code and put it in project folder `/lib`
 ```dart
 import 'package:zyh_net_work.dart';
 ```
