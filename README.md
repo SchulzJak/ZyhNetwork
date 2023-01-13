@@ -29,15 +29,14 @@ import 'package:zyh_net_work.dart';
 Performing a `GET` request:
 
 ```dart
-
-  static Future<ZyhHttpResponse> getWithNoParam() async {
-    return NetWork().get($PATH, {});
-  }
-
-
   static Future<ZyhHttpResponse> getWithParam(Map<String, dynamic> param) async {
     return NetWork().get($PATH,param);
   }
+  
+  static Future<ZyhHttpResponse> getWithoutParam() async {
+    return NetWork().get($PATH, {});
+  }
+
 ```
 
 Performing a `POST` request:
