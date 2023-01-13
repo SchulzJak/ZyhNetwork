@@ -48,14 +48,14 @@ static Future<ZyhHttpResponse> postJson(Map<String, dynamic> param) async {
 Performing a `PUT` request:
 
 ```dart
-//POST FORM
+//PUT FORM
 static Future<ZyhHttpResponse> putForm(Map<String, dynamic> param) async {
   return ZyhNetWork().formPut($PATH, param);
 }
 
-//POST JSON
+//PUT JSON
 static Future<ZyhHttpResponse> jsonPut(Map<String, dynamic> param) async {
-  return ZyhNetWork().jsonPost($PATH, param);
+  return ZyhNetWork().jsonPut($PATH, param);
 }
 ```
 
