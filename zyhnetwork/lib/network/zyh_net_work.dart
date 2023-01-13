@@ -162,15 +162,15 @@ class ZyhNetWork {
   //POST
   Future<ZyhHttpResponse> jsonPost(
       String path, Map<String, dynamic> param) async {
-    return _ndPost(path, param, ZyhHttpContentType.json);
+    return post(path, param, ZyhHttpContentType.json);
   }
 
   Future<ZyhHttpResponse> formPost(
       String path, Map<String, dynamic> param) async {
-    return _ndPost(path, param, ZyhHttpContentType.form);
+    return post(path, param, ZyhHttpContentType.form);
   }
 
-  Future<ZyhHttpResponse> _ndPost(
+  Future<ZyhHttpResponse> post(
       String path, Map<String, dynamic> param, String contentType) async {
     Map<String, dynamic> headers = {HttpHeaders.contentTypeHeader: contentType};
     _dio.options.connectTimeout = CONNECT_TIME_OUT;
@@ -204,12 +204,12 @@ class ZyhNetWork {
   //PUT
   Future<ZyhHttpResponse> formPut(
       String path, Map<String, dynamic> param) async {
-    return ndPut(path, param, ZyhHttpContentType.form);
+    return put(path, param, ZyhHttpContentType.form);
   }
 
   Future<ZyhHttpResponse> jsonPut(
       String path, Map<String, dynamic> param) async {
-    return ndPut(path, param, ZyhHttpContentType.json);
+    return put(path, param, ZyhHttpContentType.json);
   }
 
   Future<ZyhHttpResponse> filePut(
@@ -253,7 +253,7 @@ class ZyhNetWork {
     }
   }
 
-  Future<ZyhHttpResponse> ndPut(
+  Future<ZyhHttpResponse> put(
       String path, Map<String, dynamic> param, String contentType) async {
     Map<String, dynamic> headers = {HttpHeaders.contentTypeHeader: contentType};
 
