@@ -24,6 +24,12 @@ Download the source code and put it in project folder `/lib`
 ```dart
 import 'package:zyh_net_work.dart';
 ```
+Custom network info in `zyh_net_work.dart`
+```
+String SERVER = ''; //服务器地址配置
+int CONNECT_TIME_OUT = 1000; //连接超时时间，单位毫秒，默认为1000
+int SUCCESS_CODE = 0; //和后端商定的成功返回的数字码，默认为0
+```
 ## Examples
 
 Performing a `GET` request:
