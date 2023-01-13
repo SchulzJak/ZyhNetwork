@@ -3,9 +3,9 @@
 基于Dio封装的Flutter网络工具类
 
 ## Features
-- 可复用  
-- 自带解析响应类  
+- 可复用   
 - 开箱即用  
+- 自带解析响应类 
 
 ## Getting Started
 ### Add dependency
