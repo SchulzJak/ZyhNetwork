@@ -1,6 +1,6 @@
 # Zyh_Network
 
-A network tool based on Dio
+一个基于Dio封装的网络管理类
 
 ## Features
 - ♻️可复用   
