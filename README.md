@@ -1,11 +1,14 @@
 # Zyh_Network
 
-基于Dio封装的Flutter网络工具类
+基于Dio封装的Flutter网络工具类  
+A network tool based on Dio
 
 ## Features
 - 可复用   
 - 开箱即用  
-- 自带解析响应类 
+- 响应类封装 
+- 网络层错误封装 
+- 拦截器封装
 
 ## Getting Started
 ### Add dependency
