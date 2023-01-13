@@ -18,6 +18,12 @@ dependencies:
   dio: ^lastest_version
 ```
 
+### Super simple to use
+
+Download the source code and put in project folder `/lib`
+```dart
+import 'package:zyh_net_work.dart';
+```
 ## Examples
 
 Performing a `GET` request:
