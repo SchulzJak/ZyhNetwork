@@ -285,7 +285,7 @@ class ZyhNetWork {
   }
 
   //DELETE
-  Future<ZyhHttpResponse> netdiskDelete(
+  Future<ZyhHttpResponse> delete(
       String path, Map<String, dynamic> param) async {
     String contentType = ZyhHttpContentType.json;
 
