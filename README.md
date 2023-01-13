@@ -6,7 +6,7 @@ A network tool based on Dio
 - ♻️可复用   
 - 🗂开箱即用  
 - 🎛集成封装 
-  - 网络层  
+  - 网络状态  
   - 拦截器  
   - 响应类
 
