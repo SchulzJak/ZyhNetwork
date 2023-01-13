@@ -29,14 +29,13 @@ import 'package:zyh_net_work.dart';
 Performing a `GET` request:
 
 ```dart
-  static Future<ZyhHttpResponse> getWithParam(Map<String, dynamic> param) async {
-    return NetWork().get($PATH,param);
-  }
-  
-  static Future<ZyhHttpResponse> getWithoutParam() async {
-    return NetWork().get($PATH, {});
-  }
+static Future<ZyhHttpResponse> getWithParam(Map<String, dynamic> param) async {
+  return NetWork().get($PATH,param);
+}
 
+static Future<ZyhHttpResponse> getWithoutParam() async {
+  return NetWork().get($PATH, {});
+}
 ```
 
 Performing a `POST` request:
@@ -78,17 +77,17 @@ static Future<ZyhHttpResponse> delete(Map<String, dynamic> param) async {
 Get response with bytes:
 
 ```dart
-  static Future<ZyhHttpResponse> getByteList(Map<String, dynamic> param) async {
-    return NetWork().byteListGet($PATH, param);
-  }
+static Future<ZyhHttpResponse> getByteList(Map<String, dynamic> param) async {
+  return NetWork().byteListGet($PATH, param);
+}
 ```
 
 Sending FormData:
 
 ```dart
-  static Future<ZyhHttpResponse> putFileToServer(Map<String, dynamic> param) async {
-    return NetWork().filePut($PATH, param);
-  }
+static Future<ZyhHttpResponse> putFileToServer(Map<String, dynamic> param) async {
+  return NetWork().filePut($PATH, param);
+}
 ```
 …you can make your own interface.
 
